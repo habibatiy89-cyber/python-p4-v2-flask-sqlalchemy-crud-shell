@@ -16,6 +16,5 @@ class Pet(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
     species = db.Column(db.String)
-
-    def __repr__(self):
-        return f'<Pet {self.id}, {self.name}, {self.species}>'
+def __repr__(self):
+    return f'<Pet {self.id}, {self.name}, {self.species}>'
